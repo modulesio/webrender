@@ -1833,7 +1833,7 @@ impl Renderer {
 
         let config = FrameBuilderConfig {
             default_font_render_mode,
-            dual_source_blending_is_enabled: true,
+            dual_source_blending_is_enabled: false,
             dual_source_blending_is_supported: ext_dual_source_blending,
             chase_primitive: options.chase_primitive,
             enable_picture_caching: options.enable_picture_caching,
